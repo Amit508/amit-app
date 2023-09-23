@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:stats": "ng build --stats.json && webpack-bundle-analyzer dist/stats.json",
+    "code-coverage": "ng test --no-watch --code-coverage=true",
+    "code:check": "npm run build && npm run code:coverage",
+    "e2e": "e2e"
   },
   "private": true,
   "dependencies": {
