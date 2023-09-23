@@ -1,1 +1,8 @@
-<p>header-layout works!</p>
+<div class="header-container header">
+<mat-card>
+    <h2>RAMA SEED COMPANY</h2>
+    <span *ngFor="let section of sections">
+        <span class="header_sub-menu" (click)="sectionNavigation(section)">{{section}}</span>
+    </span>
+</mat-card>
+</div>
