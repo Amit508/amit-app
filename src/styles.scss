@@ -1,4 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@import "app/shared/styles/color-style.scss";
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+$font-light: "Linotype Universe 330 Light";
+$font-regular: "Linotype Universe 430 Regular";
+$font-medium: "Linotype Universe 530 Medium";
+$font-bold: "Linotype Universe 630 Bold";
+$font-italic: "Linotype Universe 431 Italic";
+
+@mixin fontStyle($fontFamily, $size, $color) {
+    font-family: $fontFamily;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin textStyle($fontFamily, $size, $lineHeight, $color) {
+    font-family: $fontFamily;
+    font-size: $size;
+    line-height: $lineHeight;
+    color: $color;
+}
+
+:focus:not(:focus-visible) {
+    outline: none;
+}
+.no-focus:focus {
+    outline: none;
+}
+.layout-container {
+    margin: 0 3rem 0 3rem;
+    @media (min-width: 1920px) {
+        margin: 0 16rem 0 16rem;
+    }
+}
