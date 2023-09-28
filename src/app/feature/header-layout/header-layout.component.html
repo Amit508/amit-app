@@ -1,6 +1,6 @@
 <div class="header-container header">
 <mat-card>
-    <h2>RAMA SEED COMPANY</h2>
+    <h2>{{cmsLables?.sections?.dashboard?.sections?.home?.lables?.title_caps_rama}}</h2>
     <span *ngFor="let section of sections">
         <span class="header_sub-menu" (click)="sectionNavigation(section)">{{section}}</span>
     </span>

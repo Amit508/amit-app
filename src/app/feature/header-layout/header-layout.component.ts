@@ -18,7 +18,7 @@ export class HeaderLayoutComponent implements OnInit {
     this.commonService.cmsSubsCall().subscribe((data: any) => {
       this.commonService.setCmsData(data);
       this.cmsLables = this.commonService.getCmsData();
-      this.navigationObj = this.cmsLables.sections.headers.sections.menus.lables;
+      this.navigationObj = this.cmsLables?.sections?.headers?.sections?.menus.lables;
     });
   }
 
