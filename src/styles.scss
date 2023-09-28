@@ -35,3 +35,6 @@ $font-italic: "Linotype Universe 431 Italic";
         margin: 0 16rem 0 16rem;
     }
 }
+::ng-deep .mat-mdc-card {
+    background-color: unset !important;
+}

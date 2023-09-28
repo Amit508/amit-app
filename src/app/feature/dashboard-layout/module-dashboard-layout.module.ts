@@ -20,6 +20,7 @@ export const dashboardComponents = [
   ],
   exports: [
     CommonModule,
+    ...dashboardComponents,
     ModuleDashboardLayoutRoutingModule
   ],
   providers: [

@@ -1,0 +1,27 @@
+{
+    "sections": {
+        "dashboard": {
+            "sections": {
+                "home": {
+                    "lables": {
+                        "title_caps_rama": "RAMA SEED COMPANY",
+                        "title_smCase_rama": "Rama Seed Company"
+                    }
+                }
+            }
+        },
+        "headers": {
+            "sections": {
+                "menus": {
+                    "lables": {
+                        "Home": "/",
+                        "Products": "rama-seed-company/products",
+                        "About": "rama-seed-company/about",
+                        "Contact Us": "rama-seed-company/contact-us",
+                        "Login": "rama-seed-company/login"
+                    }
+                }
+            }
+        }
+    }
+}

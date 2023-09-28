@@ -5,7 +5,8 @@ import { AboutComponent } from './about/about.component';
 import { DashboardLayoutComponent } from './dashboard-layout.component';
 
 const routes: Routes = [
-  { path: '', component: DashboardLayoutComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: DashboardLayoutComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'about' ,component: AboutComponent }
 ];
