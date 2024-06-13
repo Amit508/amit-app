@@ -8,7 +8,7 @@ import { CommonService } from 'src/app/shared/services/common.service';
   styleUrls: ['./header-layout.component.scss']
 })
 export class HeaderLayoutComponent implements OnInit {
-  sections: any = ["Home", "Products", "About" , "Contact Us", "Login"];
+  sections: any = ["Home", "Products", "About Me" , "Contact Us", "Login"];
   navigationObj: any;
   cmsLables: any;
 
