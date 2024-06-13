@@ -16,7 +16,7 @@
                     "lables": {
                         "Home": "/",
                         "Products": "rama-seed-company/products",
-                        "About": "rama-seed-company/about",
+                        "About Me": "rama-seed-company/about-me",
                         "Contact Us": "rama-seed-company/contact-us",
                         "Login": "rama-seed-company/login"
                     }
